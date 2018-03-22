@@ -1,0 +1,10 @@
+{
+    "weex-adapter-image": {
+        "source": {
+            "type": "registry",
+            "id": "weex-adapter-image"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

@@ -1,0 +1,2 @@
+- 组件
+    - [wxp-image-picker 图片选择器](plugins/wxp-image-picker/)

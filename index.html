@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weex Plugin</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Description">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="/docs/_images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="docs/_images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+    <link rel="stylesheet" href="//unpkg.com/docsify-copy-code/styles.css">
+    <script src="//unpkg.com/docsify-copy-code/index.js"></script>
+</head>
+
+<body>
+<div id="app">Loading...</div>
+<script>
+    window.$docsify = {
+        name: 'Weex Plugin',
+        search: 'auto',
+        themeColor: '#48A2E4',
+        coverpage: 'docs/_coverpage.md',
+        homepage: 'README.md',
+        loadSidebar: 'docs/_sidebar.md',
+        loadNavbar: 'docs/_navbar.md',
+        auto2top: true,
+        nameLink: {
+            '/': '#/',
+            '/cn/': '#/cn/'
+        },
+        alias: {
+            '/.*/_navbar.md': 'docs/_navbar.md',
+            '/cn/.*/_sidebar.md': 'docs/_sidebar_cn.md',
+            '/plugins/.*/_sidebar.md': 'docs/_sidebar.md',
+            '/cn/': 'README_cn.md',
+            '/cn/plugins/(.*)/': 'plugins/$1/README_cn.md',
+        },
+        basePath: location.port === '3000' ? '/' : '/weex-plugins/',
+        repo: 'weexjs/weex-plugins',
+        plugins: [
+//            function (hook, vm) {
+//                hook.beforeEach(function (html) {
+//                    var url = 'https://github.com/weexjs/weex-plugins/blob/master/' + vm.route.file;
+//                    var github = "<div  data-tooltip-title=\"Star it if you like\" data-tooltip-position=\"top\" class=\"tool-tip\"><iframe src=\"https://ghbtns.com/github-btn.html?user=weexjs&amp;repo=weex-plugins&amp;type=watch&amp;count=true\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"0\" width=\"110\" height=\"20\" style='margin:0 10px -6px'></iframe></div>";
+//
+//                    var editHtml = '<a href='+ url +' data-tooltip-title=\"Correct this doc\" data-tooltip-position=\"top\" class=\"tool-tip\" target=\"_blank\"><img class=\"emoji\" src=\"https://img.alicdn.com/tfs/TB1ica2lcLJ8KJjy0FnXXcFDpXa-128-128.png\" alt=\"Edit\"></a>';
+//                    return "<div class=\"tool-docs-header\">"
+//                            + github
+//                            + "</div>"
+//                            + '\n\n'
+//                            + html
+//                            + '\n----\n'
+//                            + '**Please feel free to use and contribute to the development.**'
+//                })
+//            },
+        ]
+    }
+</script>
+<script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('./docs/dist/sw.js')
+    }
+</script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+</body>
+</html>
