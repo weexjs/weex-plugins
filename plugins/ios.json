@@ -6,10 +6,6 @@
     "config_munge": {
         "files": {}
     },
-    "installed_plugins": {
-        "nat-device-base": {
-            "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-        }
-    },
+    "installed_plugins": {},
     "dependent_plugins": {}
 }

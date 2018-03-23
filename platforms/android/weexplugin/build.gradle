@@ -47,6 +47,5 @@ dependencies {
     provided 'com.android.support:appcompat-v7:23.1.1'
     provided 'com.taobao.android:weex_sdk:0.10.0'
     // PLUGIN GRADLE EXTENSIONS START
-    compile 'com.nat:device-base:1.0.2'
 // PLUGIN GRADLE EXTENSIONS END
 }

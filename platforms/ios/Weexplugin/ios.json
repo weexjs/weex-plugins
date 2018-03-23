@@ -79,10 +79,6 @@
                         {
                             "xml": "<feature name=\"WeexNatTransfer\"><param name=\"category\" value=\"module\" /><param name=\"ios-package\" value=\"WeexNatTransfer\" /><param name=\"api\" value=\"nat/transfer\" /></feature>",
                             "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"WXTestModule\"><param name=\"category\" value=\"module\" /><param name=\"ios-package\" value=\"WeexNatDeviceBase\" /><param name=\"api\" value=\"nat/device/base\" /></feature>",
-                            "count": 1
                         }
                     ]
                 }
@@ -148,9 +144,6 @@
         },
         "nat-transfer": {
             "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-        },
-        "nat-device-base": {
-            "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
         }
     },
     "dependent_plugins": {},
@@ -173,7 +166,6 @@
         "nat-sensor-accelerometer": "0.1.5",
         "nat-sensor-compass": "0.1.4",
         "nat-stream": "0.1.4",
-        "nat-transfer": "0.1.6",
-        "nat-device-base": "0.1.2"
+        "nat-transfer": "0.1.6"
     }
 }

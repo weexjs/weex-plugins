@@ -6,10 +6,6 @@
     "config_munge": {
         "files": {}
     },
-    "installed_plugins": {
-        "nat-device-base": {
-            "PACKAGE_NAME": "com.weex.app"
-        }
-    },
+    "installed_plugins": {},
     "dependent_plugins": {}
 }

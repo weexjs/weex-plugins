@@ -38,7 +38,6 @@
 		4BED6AD84FF249A1B399D647 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDEFBA0555E4538B8A1E8C5 /* UIKit.framework */; };
 		5357255B8AF34DF1BABD92E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80BDFA970ED41F4A9E823F1 /* Foundation.framework */; };
 		6A42C3C7682F47B0A4C90A0C /* WeexNatGeo.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB48835F13C46779B88FB09 /* WeexNatGeo.m */; };
-		6EB0C0318F1A4055B232F134 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54447F20075847BE8468D9C0 /* CoreLocation.framework */; };
 		8C82CEDEE7A54F79BBFF7D8E /* WeexNatVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 538A61AD9582427AAFEB6EB6 /* WeexNatVideo.m */; };
 		92DDD87959504AC6B02448F8 /* WeexNatCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC30FF4BE84A8CA2A119B7 /* WeexNatCommunication.m */; };
 		950B503E2F7E4657A1A069C1 /* WeexNatAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = F6780759026E4813B6F53AE9 /* WeexNatAudio.m */; };
@@ -52,7 +51,6 @@
 		F0F2AAEAF79349E7A296920F /* WeexNatStream.m in Sources */ = {isa = PBXBuildFile; fileRef = CE15CB68FAFD4DB099BE9D79 /* WeexNatStream.m */; };
 		F4992DD224BA4B019DC144E5 /* WeexNatScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31A6A76DDA458D8432D8FE /* WeexNatScreen.m */; };
 		0C55444671FE4BBA8FE61BEF /* WeexNatTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FCA55E1E5B492890977FBE /* WeexNatTransfer.m */; };
-		67377A5A58154671A9B4BF42 /* WeexNatDeviceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F440F75BA04EBB83C55188 /* WeexNatDeviceBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +89,6 @@
 		44D6270E8EC54035BA0F56B9 /* WeexNatAccelerometer.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = WeexNatAccelerometer.m; path = "nat-sensor-accelerometer/WeexNatAccelerometer.m"; sourceTree = "<group>"; };
 		48DFE20571A742AFB9ABD765 /* WeexNatVideo.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WeexNatVideo.h; path = "nat-media-video/WeexNatVideo.h"; sourceTree = "<group>"; };
 		538A61AD9582427AAFEB6EB6 /* WeexNatVideo.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = WeexNatVideo.m; path = "nat-media-video/WeexNatVideo.m"; sourceTree = "<group>"; };
-		54447F20075847BE8468D9C0 /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		59A46B4F0F854540B1A0EFEB /* WeexNatDeviceInfo.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WeexNatDeviceInfo.h; path = "nat-device-info/WeexNatDeviceInfo.h"; sourceTree = "<group>"; };
 		60A1AEB14A0849A186ED6DEE /* WeexNatCamera.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = WeexNatCamera.m; path = "nat-camera/WeexNatCamera.m"; sourceTree = "<group>"; };
 		69E7643CF12A41B490AF56FC /* WeexNatImage.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WeexNatImage.h; path = "nat-media-image/WeexNatImage.h"; sourceTree = "<group>"; };
@@ -122,8 +119,6 @@
 		F6780759026E4813B6F53AE9 /* WeexNatAudio.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = WeexNatAudio.m; path = "nat-media-audio/WeexNatAudio.m"; sourceTree = "<group>"; };
 		D9FCA55E1E5B492890977FBE /* WeexNatTransfer.m */ = {isa = PBXFileReference; name = "WeexNatTransfer.m"; path = "nat-transfer/WeexNatTransfer.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		2F49437FF2C24164A94F3A0B /* WeexNatTransfer.h */ = {isa = PBXFileReference; name = "WeexNatTransfer.h"; path = "nat-transfer/WeexNatTransfer.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		B3F440F75BA04EBB83C55188 /* WeexNatDeviceBase.m */ = {isa = PBXFileReference; name = "WeexNatDeviceBase.m"; path = "nat-device-base/WeexNatDeviceBase.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		ACBF0C0EF4274AFCBBB6949A /* WeexNatDeviceBase.h */ = {isa = PBXFileReference; name = "WeexNatDeviceBase.h"; path = "nat-device-base/WeexNatDeviceBase.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +129,6 @@
 				3355BB332E31F900928DD5CD /* libPods-Weexplugin.a in Frameworks */,
 				4BED6AD84FF249A1B399D647 /* UIKit.framework in Frameworks */,
 				5357255B8AF34DF1BABD92E9 /* Foundation.framework in Frameworks */,
-				6EB0C0318F1A4055B232F134 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +220,6 @@
 				B327916567873C4DB815C61F /* libPods-WeexpluginTests.a */,
 				3DDEFBA0555E4538B8A1E8C5 /* UIKit.framework */,
 				B80BDFA970ED41F4A9E823F1 /* Foundation.framework */,
-				54447F20075847BE8468D9C0 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -279,8 +272,6 @@
 				7A9D1C8B638B4DC68196CE57 /* WeexNatStream.h */,
 				D9FCA55E1E5B492890977FBE /* WeexNatTransfer.m */,
 				2F49437FF2C24164A94F3A0B /* WeexNatTransfer.h */,
-				B3F440F75BA04EBB83C55188 /* WeexNatDeviceBase.m */,
-				ACBF0C0EF4274AFCBBB6949A /* WeexNatDeviceBase.h */,
 			);
 			name = Plugins;
 			path = Plugins;
@@ -493,7 +484,6 @@
 				BEB906184CDC44D78BD76FF5 /* WeexNatCompass.m in Sources */,
 				F0F2AAEAF79349E7A296920F /* WeexNatStream.m in Sources */,
 				0C55444671FE4BBA8FE61BEF /* WeexNatTransfer.m in Sources */,
-				67377A5A58154671A9B4BF42 /* WeexNatDeviceBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

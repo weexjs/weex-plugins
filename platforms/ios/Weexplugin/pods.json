@@ -106,11 +106,5 @@
         "type": "podspec",
         "spec": "0.0.4",
         "count": 1
-    },
-    "NatDeviceBase": {
-        "name": "NatDeviceBase",
-        "type": "podspec",
-        "spec": "",
-        "count": 1
     }
 }

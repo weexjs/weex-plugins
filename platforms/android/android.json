@@ -7,24 +7,13 @@
         "files": {
             "config.xml": {
                 "parents": {
-                    "/*": [
-                        {
-                            "xml": "<feature name=\"DeviceBaseModule\"><param name=\"category\" value=\"module\" /><param name=\"android-package\" value=\"com.nat.weex.DeviceBaseModule\" /><param name=\"api\" value=\"nat/device/base\" /></feature>",
-                            "count": 1
-                        }
-                    ]
+                    "/*": []
                 }
             }
         }
     },
-    "installed_plugins": {
-        "nat-device-base": {
-            "PACKAGE_NAME": "com.weex.app"
-        }
-    },
+    "installed_plugins": {},
     "dependent_plugins": {},
     "modules": [],
-    "plugin_metadata": {
-        "nat-device-base": "0.1.2"
-    }
+    "plugin_metadata": {}
 }
