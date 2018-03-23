@@ -1,4 +1,24 @@
 apply plugin: 'com.android.library'
+
+buildscript {
+    repositories {
+        //maven { url "http://mvnrepo.alibaba-inc.com/mvn/repository" }
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+    }
+}
+
+allprojects {
+    repositories {
+        //maven { url "http://mvnrepo.alibaba-inc.com/mvn/repository" }
+        mavenCentral()
+        jcenter()
+    }
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
@@ -20,16 +40,13 @@ android {
         targetCompatibility JavaVersion.VERSION_1_7
     }
 }
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     provided 'com.android.support:support-v4:23.1.1'
     provided 'com.android.support:appcompat-v7:23.1.1'
-    provided 'com.taobao.android:weex_sdk:0.11.0'
-    testCompile 'junit:junit:4.12'
+    provided 'com.taobao.android:weex_sdk:0.10.0'
     // PLUGIN GRADLE EXTENSIONS START
+    compile 'com.nat:device-base:1.0.2'
 // PLUGIN GRADLE EXTENSIONS END
-}
-
-repositories {
-    jcenter()
 }

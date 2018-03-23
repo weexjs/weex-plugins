@@ -20,7 +20,8 @@
         "vue": "^2.4.3",
         "weex-html5": "^0.4.1",
         "weex-vue-render": "^0.12.21",
-        "weex-action-sheet": "2.0.7"
+        "weex-action-sheet": "2.0.7",
+        "wxp-image-picker": "0.0.2"
     },
     "devDependencies": {
         "babel-core": "^6.21.0",

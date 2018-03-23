@@ -6,5 +6,21 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "nat-device-base": {
+        "source": {
+            "type": "registry",
+            "id": "nat-device-base"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "weex-chart": {
+        "source": {
+            "type": "registry",
+            "id": "weex-chart"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
