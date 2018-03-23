@@ -1,0 +1,11 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/NatDeviceNetwork
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/NatDeviceNetwork" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DACircularProgress" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/NatAccelerometer" "${PODS_ROOT}/Headers/Public/NatAudio" "${PODS_ROOT}/Headers/Public/NatBattery" "${PODS_ROOT}/Headers/Public/NatCamera" "${PODS_ROOT}/Headers/Public/NatCommunication" "${PODS_ROOT}/Headers/Public/NatCompass" "${PODS_ROOT}/Headers/Public/NatDeviceBase" "${PODS_ROOT}/Headers/Public/NatDeviceInfo" "${PODS_ROOT}/Headers/Public/NatDeviceNetwork" "${PODS_ROOT}/Headers/Public/NatGeolocation" "${PODS_ROOT}/Headers/Public/NatImage" "${PODS_ROOT}/Headers/Public/NatModal" "${PODS_ROOT}/Headers/Public/NatRecorder" "${PODS_ROOT}/Headers/Public/NatScreen" "${PODS_ROOT}/Headers/Public/NatStream" "${PODS_ROOT}/Headers/Public/NatTransfer" "${PODS_ROOT}/Headers/Public/NatVibration" "${PODS_ROOT}/Headers/Public/NatVideo" "${PODS_ROOT}/Headers/Public/NatVolume" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SocketRocket" "${PODS_ROOT}/Headers/Public/TZImagePickerController" "${PODS_ROOT}/Headers/Public/WeexPluginLoader" "${PODS_ROOT}/Headers/Public/WeexSDK" "${PODS_ROOT}/Headers/Public/Weexplugin"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Reachability"
+OTHER_LDFLAGS = -framework "CoreTelephony" -framework "SystemConfiguration"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/NatDeviceNetwork
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

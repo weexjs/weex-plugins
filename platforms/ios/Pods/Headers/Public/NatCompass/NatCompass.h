@@ -1,0 +1,1 @@
+../../../NatCompass/ios/Classes/NatCompass.h

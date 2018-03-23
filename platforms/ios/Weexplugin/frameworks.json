@@ -1,4 +1,7 @@
 {
     "UIKit.framework": 1,
-    "Foundation.framework": 1
+    "Foundation.framework": 1,
+    "ImageIO.framework": 2,
+    "CoreLocation.framework": 2,
+    "AVFoundation.framework": 2
 }

@@ -1,0 +1,103 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - MBProgressHUD (1.0.0)
+  - NatAccelerometer (0.0.2)
+  - NatAudio (0.0.3)
+  - NatBattery (0.0.2)
+  - NatCamera (0.0.2)
+  - NatCommunication (0.0.1)
+  - NatCompass (0.0.1)
+  - NatDeviceBase (0.0.1)
+  - NatDeviceInfo (0.0.2)
+  - NatDeviceNetwork (0.0.2):
+    - Reachability (~> 3.2)
+  - NatGeolocation (0.0.6)
+  - NatImage (0.0.7):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 1.0.0)
+    - SDWebImage (~> 3.7.5)
+    - TZImagePickerController (~> 1.8.3)
+  - NatModal (0.0.1)
+  - NatRecorder (0.0.2)
+  - NatScreen (0.0.1)
+  - NatStream (0.0.1)
+  - NatTransfer (0.0.4)
+  - NatVibration (0.0.1)
+  - NatVideo (0.0.3):
+    - Reachability (~> 3.2)
+  - NatVolume (0.0.2)
+  - Reachability (3.2)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SocketRocket (0.4.2)
+  - TZImagePickerController (1.8.9)
+  - Weexplugin (0.0.1):
+    - NatAccelerometer (= 0.0.2)
+    - NatAudio (= 0.0.3)
+    - NatBattery (= 0.0.2)
+    - NatCamera (= 0.0.2)
+    - NatCommunication (= 0.0.1)
+    - NatCompass (= 0.0.1)
+    - NatDeviceBase
+    - NatDeviceInfo (= 0.0.2)
+    - NatDeviceNetwork (= 0.0.2)
+    - NatGeolocation (= 0.0.6)
+    - NatImage (= 0.0.7)
+    - NatModal (= 0.0.1)
+    - NatRecorder (= 0.0.2)
+    - NatScreen (= 0.0.1)
+    - NatStream (= 0.0.1)
+    - NatTransfer (= 0.0.4)
+    - NatVibration (= 0.0.1)
+    - NatVideo (= 0.0.3)
+    - NatVolume (= 0.0.2)
+    - WeexSDK
+  - WeexPluginLoader (0.0.1.9.1):
+    - WeexSDK
+  - WeexSDK (0.18.0)
+
+DEPENDENCIES:
+  - SDWebImage (= 3.7.5)
+  - SocketRocket (= 0.4.2)
+  - Weexplugin (from `./Weexplugin/`)
+  - WeexPluginLoader
+  - WeexSDK
+
+EXTERNAL SOURCES:
+  Weexplugin:
+    :path: ./Weexplugin/
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  NatAccelerometer: 4cdd2deda166c2e0f4bc768e9dad5bfd01ca4a9c
+  NatAudio: b674c999c5f19b6079e1c29dcb77e3aadbd5907a
+  NatBattery: f3a8acc1c56231414c7210dcb291f30def0e4844
+  NatCamera: 99304f801d5c40511114a372e6c25edf3b56693e
+  NatCommunication: 3688bbbb7c6b06342d3d16a2e9cad93d7298bb99
+  NatCompass: 8ee744d241070c9283305ded1929c7f863b81192
+  NatDeviceBase: 499230c887f3a11d69027e0cecc7870b180dcc4f
+  NatDeviceInfo: fe10d92eb85c6df6d30cab1dd0800eeb3451b760
+  NatDeviceNetwork: 9444b1c21f812732db3891be47cd568b686ca90b
+  NatGeolocation: d209a2e3d0560ef55d4cda53d5292a4edb5a7b2a
+  NatImage: 14c1e8a8cfccb915cb0b9ec7bc0ca1ae64f5de16
+  NatModal: d084214ec79cb4992814c08bbc64ee4097ea4ea3
+  NatRecorder: 27386fb313174e6f9139cf7b38cef4567bc35826
+  NatScreen: c60e27b4980228331e87b29c7613c90cdec25587
+  NatStream: 26c695d0b6495df33d6d065ed7ec35b89f3754c0
+  NatTransfer: 3fdf4ef411560c9a016261e064d5a8dea4e05a3d
+  NatVibration: da5234119c5a43e43c21c2f62b31c07d075324ca
+  NatVideo: b237ef24322bbdbb73a4f244f476f39618cf5876
+  NatVolume: 94607bea7d9f9344fd53dec156c509a8b16ed39e
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  TZImagePickerController: b44f4cfc6d320dab9a53adcdda725099be36dcda
+  Weexplugin: 5821e3f10149ea208de67508e7f7a43a0db0f883
+  WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
+  WeexSDK: ac56f255ce9a48e93ebc2e003956ab20da33321d
+
+PODFILE CHECKSUM: 20aaf345cd6facd5698b1a73fece10ca0458fa8b
+
+COCOAPODS: 1.4.0

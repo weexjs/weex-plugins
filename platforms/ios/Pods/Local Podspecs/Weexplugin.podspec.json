@@ -1,0 +1,85 @@
+{
+  "name": "Weexplugin",
+  "version": "0.0.1",
+  "summary": "Weex plugin container",
+  "description": "Weexplugin Source Description",
+  "homepage": "https://github.com/weexteam/weex-pack.git",
+  "license": {
+    "type": "Copyright",
+    "text": "           Alibaba-INC copyright\n"
+  },
+  "authors": {
+    "yangshengtao": "yangshengtao1314@163.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Weexplugin/**/*.{h,m,mm}",
+  "resources": "Weexplugin/Resources/*",
+  "requires_arc": true,
+  "dependencies": {
+    "WeexSDK": [
+
+    ],
+    "NatBattery": [
+      "0.0.2"
+    ],
+    "NatCommunication": [
+      "0.0.1"
+    ],
+    "NatModal": [
+      "0.0.1"
+    ],
+    "NatCamera": [
+      "0.0.2"
+    ],
+    "NatDeviceInfo": [
+      "0.0.2"
+    ],
+    "NatDeviceNetwork": [
+      "0.0.2"
+    ],
+    "NatScreen": [
+      "0.0.1"
+    ],
+    "NatVibration": [
+      "0.0.1"
+    ],
+    "NatVolume": [
+      "0.0.2"
+    ],
+    "NatGeolocation": [
+      "0.0.6"
+    ],
+    "NatAudio": [
+      "0.0.3"
+    ],
+    "NatImage": [
+      "0.0.7"
+    ],
+    "NatVideo": [
+      "0.0.3"
+    ],
+    "NatRecorder": [
+      "0.0.2"
+    ],
+    "NatAccelerometer": [
+      "0.0.2"
+    ],
+    "NatCompass": [
+      "0.0.1"
+    ],
+    "NatStream": [
+      "0.0.1"
+    ],
+    "NatTransfer": [
+      "0.0.4"
+    ],
+    "NatDeviceBase": [
+
+    ]
+  }
+}

@@ -6,6 +6,17 @@
     "config_munge": {
         "files": {}
     },
-    "installed_plugins": {},
-    "dependent_plugins": {}
+    "installed_plugins": {
+        "weex-netinfo": {
+            "PACKAGE_NAME": "com.weex.app"
+        },
+        "weex-amap": {
+            "PACKAGE_NAME": "com.weex.app"
+        }
+    },
+    "dependent_plugins": {
+        "weex-adapter-image": {
+            "PACKAGE_NAME": "com.weex.app"
+        }
+    }
 }

@@ -256,10 +256,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 775BEEA81C1E8ECC008D1629 /* Build configuration list for PBXNativeTarget "WeexDemo" */;
 			buildPhases = (
+				B6CD430538DB9CA3E0F959AA /* [CP] Check Pods Manifest.lock */,
 				0A2546EC1E00EDC5008B7C9F /* Bundle deploy server */,
 				775BEE771C1E8ECC008D1629 /* Sources */,
 				775BEE781C1E8ECC008D1629 /* Frameworks */,
 				775BEE791C1E8ECC008D1629 /* Resources */,
+				5FA5376DAB211BF8BB07FC3B /* [CP] Embed Pods Frameworks */,
+				7F960077C2C90FDBF24186D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,6 +323,7 @@
 				TargetAttributes = {
 					775BEE7A1C1E8ECC008D1629 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 9ZASM536L4;
 						ProvisioningStyle = Manual;
 					};
 					775BEE931C1E8ECC008D1629 = {
@@ -428,6 +432,21 @@
 			shellPath = /bin/sh;
 			shellScript = "myFile=\"XcodeCoverage/exportenv.sh\"\n\nif [ -f \"$myFile\" ]; then\nXcodeCoverage/exportenv.sh\nfi";
 		};
+		5FA5376DAB211BF8BB07FC3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexDemo/Pods-WeexDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		62254A043B5C03D898ED0475 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -435,17 +454,93 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WeexUITestDemo/Pods-WeexUITestDemo-resources.sh",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay@3x.png",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
 				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
+				"${PODS_ROOT}/../Weexplugin/Weexplugin/Resources/WeexpluginConfig.xml",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeexpluginConfig.xml",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexUITestDemo/Pods-WeexUITestDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F960077C2C90FDBF24186D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeexDemo/Pods-WeexDemo-resources.sh",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay@3x.png",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
+				"${PODS_ROOT}/../Weexplugin/Weexplugin/Resources/WeexpluginConfig.xml",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeexpluginConfig.xml",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexDemo/Pods-WeexDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		93B40B6146CF9798322AE2D0 /* [CP] Embed Pods Frameworks */ = {
@@ -461,6 +556,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexUITestDemo/Pods-WeexUITestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6CD430538DB9CA3E0F959AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeexDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -601,7 +714,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9ZASM536L4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -630,7 +743,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.WeexPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "402abfbc-b088-4243-ad67-af2fa1cdce67";
+				PROVISIONING_PROFILE_SPECIFIER = iOS_Development;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -642,8 +756,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9ZASM536L4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -672,7 +786,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.WeexPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "402abfbc-b088-4243-ad67-af2fa1cdce67";
+				PROVISIONING_PROFILE_SPECIFIER = iOS_Development;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

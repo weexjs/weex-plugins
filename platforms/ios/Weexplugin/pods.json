@@ -106,5 +106,11 @@
         "type": "podspec",
         "spec": "0.0.4",
         "count": 1
+    },
+    "AMap3DMap": {
+        "name": "AMap3DMap",
+        "type": "podspec",
+        "spec": "4.6.1",
+        "count": 1
     }
 }

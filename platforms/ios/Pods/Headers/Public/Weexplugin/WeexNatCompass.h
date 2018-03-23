@@ -1,0 +1,1 @@
+../../../../Weexplugin/Weexplugin/Plugins/nat-sensor-compass/WeexNatCompass.h

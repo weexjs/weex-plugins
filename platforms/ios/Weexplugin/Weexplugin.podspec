@@ -75,6 +75,7 @@ Pod::Spec.new do |s|
   s.dependency 'NatRecorder', '0.0.2'
   s.dependency 'NatTransfer', '0.0.4'
   s.dependency 'NatDeviceBase'
+  s.dependency 'AMap3DMap', '4.6.1'
   #${weexpackPlaceHolder}
 
   # s.vendored_frameworks = 'Weexplugin.framework'

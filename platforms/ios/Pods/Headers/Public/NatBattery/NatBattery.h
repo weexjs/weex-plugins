@@ -1,0 +1,1 @@
+../../../NatBattery/ios/Classes/NatBattery.h

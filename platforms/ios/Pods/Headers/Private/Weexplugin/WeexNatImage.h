@@ -1,0 +1,1 @@
+../../../../Weexplugin/Weexplugin/Plugins/nat-media-image/WeexNatImage.h

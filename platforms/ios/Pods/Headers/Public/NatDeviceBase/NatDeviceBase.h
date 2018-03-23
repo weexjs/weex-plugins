@@ -1,0 +1,1 @@
+../../../NatDeviceBase/ios/Classes/NatDeviceBase.h

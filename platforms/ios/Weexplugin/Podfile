@@ -2,15 +2,14 @@ source 'git@github.com/CocoaPods/Specs.git'
 platform :ios, '7.0'
 # inhibit_all_warnings!
 def common
-		pod 'WeexActionSheet', '1.3.5'
-	pod 'WeexPluginWheelPicker', '0.0.1'
-	pod 'WeexSDK'
+		pod 'WeexSDK'
 	pod 'Weexplugin', :path=>'./Weexplugin/
 	pod 'WXDevtool'
 	pod 'SDWebImage', '3.7.6'
 	pod 'SocketRocket', '0.4.2'
 	pod 'ATSDK', '0.0.1'
 	pod 'AVOSCloud'
+	pod 'AMap3DMap', '4.6.1'
 end
 target 'Weexplugin' do
 	common

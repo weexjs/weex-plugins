@@ -1,0 +1,1 @@
+../../../../Weexplugin/Weexplugin/Plugins/nat-camera/WeexNatCamera.h
