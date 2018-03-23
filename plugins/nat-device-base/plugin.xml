@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.w3.org/ns/widgets"
+    id="nat-device-base"
+    version="0.1.2">
+    <name>nat-device-base</name>
+    <description>Nat.js module: Device (base info)</description>
+    <license>MIT</license>
+    <keywords>weex,plugin,nat,natjs,device</keywords>
+    <repo>https://github.com/natjs/weex-nat-device-base.git</repo>
+    <issue>https://github.com/natjs/weex-nat-device-base/issues</issue>
+    
+     <!-- ios -->
+     <platform name="ios">
+         <framework src="NatDeviceBase" type="podspec" spec="" />
+         <config-file target="WeexpluginConfig.xml" parent="/*">
+             <feature name="WXTestModule">
+                 <param name="category" value="module" />
+                 <param name="ios-package" value="WeexNatDeviceBase" />
+                 <param name="api" value="nat/device/base" />
+             </feature>
+         </config-file>
+         <header-file src="ios/WeexNatDeviceBase.h"/>
+         <source-file src="ios/WeexNatDeviceBase.m"/>
+     </platform>
+
+     <!-- android -->
+     <platform name="android">
+        <config-file target="config.xml" parent="/*">
+             <feature name="DeviceBaseModule">
+                 <param name="category" value="module" />
+                 <param name="android-package" value="com.nat.weex.DeviceBaseModule" />
+                 <param name="api" value="nat/device/base" />
+             </feature>
+        </config-file>
+
+        <source-file
+             src="android/DeviceBaseModule.java"
+            target-dir="src/com/alibaba/weex/nat/DeviceBaseModule.java" />
+
+        <framework src="com.nat:device-base:1.0.2" />
+     </platform>
+
+</plugin>

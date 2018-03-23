@@ -1,0 +1,19 @@
+{
+    "version": "0.3.2",
+    "platform": [
+        "ios",
+        "android"
+    ],
+    "description": "A chart component for weex",
+    "keywords": [
+        "weex",
+        "plugin"
+    ],
+    "license": "Apache 2.0",
+    "main": "js/index.js",
+    "dependencies": {
+        "g2-mobile": "2.1.13-beta",
+        "weex-gcanvas": "^0.3.8"
+    },
+    "name": "weex-plugin-weex-chart"
+}
