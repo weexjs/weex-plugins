@@ -8,4 +8,4 @@
 ### 资源网站
 * [natjs](http://natjs.com/) nat开源主键库
 * [本木医疗 eros](https://bmfe.github.io/eros-docs) 本木医疗基于 weex 封装、面向前端的 vue 写法的一整套 app 解决方案
-* [Weex-u](https://bmfe.github.io/eros-docs) weex 官方UI库
+* [Weex-UI](https://bmfe.github.io/eros-docs) weex 官方UI库
